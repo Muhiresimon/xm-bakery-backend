@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+</head>
+<body>
+  <h1>Add New Product</h1>
+  <form method="POST" action="http://localhost:5000/api/products">
+    <label>Product Name:</label><br>
+    <input type="text" name="name"><br>
+
+    <label>Price:</label><br>
+    <input type="number" name="price" step="0.01"><br>
+
+    <label>Category:</label><br>
+    <input type="text" name="category"><br>
+
+    <label>Quantity:</label><br>
+    <input type="number" name="quantity"><br><br>
+
+    <button type="submit">Add Product</button>
+  </form>
+</body>
+</html>
